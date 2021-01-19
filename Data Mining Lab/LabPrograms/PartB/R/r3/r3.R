@@ -1,7 +1,9 @@
 library(arules)
 library(arulesViz)
 
-Groceries <- read.csv("Groceries.csv")
+
+
+inspect(Groceries)
 data(Groceries)
 
 inspect(Groceries[1:10])
